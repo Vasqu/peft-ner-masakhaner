@@ -26,7 +26,7 @@ This project implements fine-tuning of a multilingual transformer ("*xlm-roberta
 - Reference for using multiple sets: [Torch Lightning - Managing Data](https://lightning.ai/docs/pytorch/LTS/guides/data.html)
 
 
-# Usage
+## Usage
 Just run the [NERRun.py](code/bitfit/src/NERRun.py) script. Might need a login to your wandb account before (e.g. via the terminal) and possibly might need a predefined cache structure at a given location (see [NERDataModule.py](code/bitfit/src/NERDataModule.py)). 
 
 
